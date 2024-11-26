@@ -1,0 +1,73 @@
+/* Resetting some default styles */
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 156, 173);
+    color: #333;
+  }
+  
+  header {
+    background-color: #8213e4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Styling the gallery */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;           /* Allow images to wrap on smaller screens */
+    gap: 80px;                 /* Space between images */
+    justify-content: center;   /* Center images in the container */
+    padding: 20px;
+    border-radius: 1%;
+    border: 6px solid #000000;
+  }
+  
+  .image-gallery img {
+    width: 400px;              /* Uniform width */
+    height: 500px;             /* Uniform height */
+    object-fit: cover;         /* Ensure images don't distort */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1%;
+    border: 6px solid #000000;
+  }
+  
+  /* Hover effect for interactivity */
+  .image-gallery img:hover {
+    transform: scale(1.1);     /* Zoom effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .image-gallery img {
+      width: 150px;            /* Smaller size for small screens */
+      height: 100px;
+    }
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+  }
+
+  

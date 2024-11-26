@@ -1,0 +1,75 @@
+body{
+    background-color:rgb(253, 150, 167);
+    font-size: 10px;
+    text-align : center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+    border: 100px solid transparent;
+    padding: 20px;
+    background-image:"E:\cse\New Project 2\img3.jpeg";
+}
+h1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Moves the element to the center */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    position: fixed;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Fira Code', monospace;
+}
+h3{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Fira Code', monospace;
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Moves the image to the center */
+    max-width: 50%; /* Ensures the image doesn't overflow */
+    height: 50%;
+    border: 6px solid #000000; /* White border around the image */
+    transition: transform 0.3s ease;
+    display: block;
+    border-radius: 1%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the link (anchor tag) */
+a {
+    text-decoration: none; /* Remove the underline from the link */
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+  }
+  
+  
